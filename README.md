@@ -17,3 +17,27 @@ Entities, utterance examples and output text strings in the Virtual Assistant pr
 
 When the Virtual Assistant receives the input it forwards it to the NLP components - Named Entity Recognition (NER) engine and Intent Recognition module.
 
+## Intents
+
+The Virtual Assistant recognizes 3 intents:
+
+- intent *hello*, represented by such utterances as 'hi there', 'hello bot', 'good morning', etc.
+- intent *bye*, represented by such utterances as 'see you later', 'goodbye', 'see you tomorrow', etc.
+- intent *help*, represented by such utterances as 'do you hear me', 'tell me what you can do', 'to what questions you can answer', etc.
+
+## Entities
+
+The Virtual Assistant recognizes 12 types of entities:
+
+- type *Person_name* - different first names
+- type *Speaker* - regular expression with two words starting with a capital letter
+- type *Com_nextmeeting* - words 'nextmeeting' or 'meeting'
+- type *Prompt* - regular expression containing words 'Tilde', 'please', and 'write' or 'note' or 'task' or 'decision'
+- type *Language* - regular expression containing name of a language
+- type *Commands* - regular expression containing different commands
+- type *Com_decision* - word 'decision'
+- type *Com_task* - word 'task'
+- type *Com_stop* - word 'stop'
+- type *Com_download* - word 'download'
+- type *Com_sr_lang* - words 'SR language'
+- type *Com_display_lang* - words 'display language'
