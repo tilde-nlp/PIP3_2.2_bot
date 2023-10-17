@@ -41,3 +41,29 @@ The Virtual Assistant recognizes 12 types of entities:
 - type *Com_download* - word 'download'
 - type *Com_sr_lang* - words 'SR language'
 - type *Com_display_lang* - words 'display language'
+
+## Commands
+
+The Meeting Management Application that works through the Microsoft Teams interface communicates with the Virtual Assistant in order to detect the certain commands and to provide an appropriate answer.
+
+The following commands are implemented:
+
+- command *Next meeting*
+
+For meeting scheduling the entities of type *Prompt* and *Com_nextmeeting* are used. The regular expression captures the text after the initial phrase that contains the time of the next meeting. The answer contains the prefix ‘NEXT MEETING:’ and the passed in utterance.
+
+![/nextmeeting.jpg](/nextmeeting.jpg)
+
+- command *Decision*
+
+To use this command user needs to include in the utterance entities of type *Prompt* and *Com_decision*. The answer contains the prefix ‘DECISION:’ and the passed in utterance.
+
+![/decision.jpg](/decision.jpg)
+
+- command *Task*
+
+To use this command user needs to include in the utterance entities of type *Prompt* and *Com_task*. The answer contains the prefix ‘TASK:’ and the passed in utterance.
+
+![/task.jpg](/task.jpg)
+
+
