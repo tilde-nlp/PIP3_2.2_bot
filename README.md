@@ -66,4 +66,4 @@ To use this command user needs to include in the utterance entities of type *Pro
 
 ![/task.jpg](/task.jpg)
 
-
+The responses from the Virtual Assistant (tasks, decisions, next meeting times) produced during the meeting are included in the meeting minutes document and are available after the meeting. Meeting minutes document contains also the list of meeting participants and full conversation history.
