@@ -5,13 +5,13 @@ Meeting management is provided using the Virtual Assistant created and edited th
 
 The Virtual Assistant bot project on the Tilde Bot Dashboard consists of several parts:
 
-- you can define entities that will be recognized in received text (files ![/entity/en-en.json](/entity/en-en.json) and ![/entity/lv-lv.json](/entity/lv-lv.json))
-- you can provide utterance examples that are used for intent detector training (files ![/intent/en-en.json](/intent/en-en.json) and ![/intent/lv-lv.json](/intent/lv-lv.json))
-- you can define dialog scenario according to which the conversation flow is managed, and appropriate answers prepared (file ![/model.json](/model.json))
-- you can define actions that are used in scenario to get or process some data, for example, calling Javascript function or the Web Service  (file ![/actions.json](/actions.json))
-- you can specify text strings for the output (files ![/lang/en-en.json](/lang/en-en.json) and ![/lang/lv-lv.json](/lang/lv-lv.json))
+- you can define entities that will be recognized in received text (files [/entity/en-en.json](/entity/en-en.json) and [/entity/lv-lv.json](/entity/lv-lv.json))
+- you can provide utterance examples that are used for intent detector training (files [/intent/en-en.json](/intent/en-en.json) and [/intent/lv-lv.json](/intent/lv-lv.json))
+- you can define dialog scenario according to which the conversation flow is managed, and appropriate answers prepared (file [/model.json](/model.json))
+- you can define actions that are used in scenario to get or process some data, for example, calling Javascript function or the Web Service  (file [/actions.json](/actions.json))
+- you can specify text strings for the output (files [/lang/en-en.json](/lang/en-en.json) and [/lang/lv-lv.json](/lang/lv-lv.json))
 
-The general settings of the Virtual Assistant are specified in the file ![/settings.json](/settings.json)
+The general settings of the Virtual Assistant are specified in the file [/settings.json](/settings.json)
 
 Entities, utterance examples and output text strings in the Virtual Assistant project are prepared in several languages. The language of input is detected automatically, and the appropriate textual data are used for processing of input and preparation of answer.
 
